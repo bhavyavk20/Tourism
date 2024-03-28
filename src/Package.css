@@ -1,0 +1,11 @@
+.img-container
+{
+  width: 300px;
+  height: 250px;
+}
+.title
+{
+  text-align: center;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

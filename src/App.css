@@ -1,0 +1,113 @@
+header
+{
+  background: url('bground.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.navbar li a
+{
+   color: black;
+   text-decoration: none;
+}
+
+.navbar.open {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+.logo h1 {
+  margin-left: 100px; 
+  margin-top: -60px;
+  color: seagreen;
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+.toggle-button {
+  display: none;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: large;
+  justify-content: center; /* Align menu items to the center */
+}
+
+.menu li {
+  padding: 10px 20px;
+ 
+}
+li a:hover
+{
+  color:seagreen; ;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px; /* Adjust the top position as needed */
+    left: 0;
+    background-color: #f9f9f9;
+    width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .toggle-button {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .logo {
+    order: -1; /* Move logo to the top on small screens */
+  }
+
+  .menu li {
+    text-align: center;
+  }
+}
+/* booking section */
+h1
+{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 50px;
+  color:seagreen;
+}
