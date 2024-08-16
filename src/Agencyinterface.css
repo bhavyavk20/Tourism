@@ -1,0 +1,34 @@
+.container {
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 800px; /* Set maximum width of the container */
+    padding: 20px; /* Add some padding */
+}
+
+.heading {
+    text-align: center; /* Center the heading */
+}
+
+.user-table {
+    width: 100%; /* Set table width to 100% */
+}
+
+.user-table th,
+.user-table td {
+    padding: 8px; /* Add padding to table cells */
+    text-align: center; /* Align text to left within table cells */
+}
+
+.user-table th {
+    background-color: #f2f2f2; /* Add background color to table header */
+}
+
+.bg {
+    background-color: #007bff; /* Add background color to button */
+    border: none; /* Remove border from button */
+    padding: 5px 10px; /* Add padding to button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.bg:hover {
+    background-color: #0056b3; /* Change background color on button hover */
+}

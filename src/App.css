@@ -1,11 +1,11 @@
-header
+ header
 {
   background: url('bground.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
 
-}
+} 
 
 .navbar {
   position: sticky;
@@ -64,6 +64,15 @@ header
 li a:hover
 {
   color:seagreen; ;
+}
+.blogin
+{
+   width: 80px;
+   height: 30px;
+   background-color: seagreen;
+   border: 2px solid seagreen;
+   border-radius: 5px;
+   color: white;
 }
 
 /* Media query for small screens */

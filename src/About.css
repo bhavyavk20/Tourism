@@ -1,0 +1,37 @@
+.about-us-container {
+    padding: 20px;
+  }
+  
+  .about-description {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .our-approach
+  {
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .meet-the-team
+  {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  

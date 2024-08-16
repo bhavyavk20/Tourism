@@ -1,0 +1,61 @@
+.d-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-left: 10%; /* Adjust margin for smaller screens */
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw; /* Adjust font size based on viewport width */
+    padding: 30px; /* Adjust padding for better spacing */
+    color: rgb(35,109,200);
+}
+.titles {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw; /* Adjust font size based on viewport width */
+    padding-right: 50%; /* Adjust padding for smaller screens */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .card {
+        flex: 0 0 calc(50% - 20px); /* Adjust card width for smaller screens */
+        max-width: calc(50% - 20px);
+    }
+    .titles {
+        font-size: 3vw; /* Adjust font size for smaller screens */
+        padding-right: 50%; /* Further adjust padding for smaller screens */
+    }
+
+    .icons {
+        font-size: 10vw; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+    .card {
+        flex: 0 0 calc(100% - 20px); /* Adjust card width for smaller screens */
+        max-width: calc(100% - 20px);
+    }
+    .titles {
+        font-size: 4vw; /* Further adjust font size for even smaller screens */
+        padding-right: 0; /* Remove padding for smallest screens */
+    }
+
+    .icons {
+        font-size: 12vw; /* Further adjust font size for smaller screens */
+        padding-left: 150px;
+    }
+}

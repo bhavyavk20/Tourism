@@ -1,0 +1,46 @@
+.popup {
+    position: relative;
+    background-color: rgb(251, 245, 245); /* Red color with 50% transparency */
+    height: auto; /* Change height to auto to accommodate content */
+    width: 90%; /* Adjust width for responsiveness */
+    max-width: 400px; /* Maximum width for larger screens */
+    margin: 100px auto; /* Center the modal */
+    border-radius: 15px;
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .popup {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}

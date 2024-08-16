@@ -1,0 +1,43 @@
+.agency-container {
+    display: flex;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: whitesmoke;
+  }
+  .office
+  {
+    font-size: 100px;
+    margin-top: -150px;
+    color: black;
+    font-family:'Times New Roman', Times, serif ;
+  }
+  .office-container
+  {
+    display: flex;
+    gap: 30px; /* Add space between buttons */
+    height: 60px;
+    width: 400px;
+    margin-left: 130px;
+  }
+  #btnn
+  {
+    color: white;
+    background-color: rgb(6, 118, 166);
+  }
+   /* .booking
+  {
+      background:fixed;  
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }  */
